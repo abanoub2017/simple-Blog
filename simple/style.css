@@ -1,0 +1,385 @@
+/*Start Main Ruloz*/
+*{
+ margin:0px;
+ padding:0px;
+}
+.contanier{
+	margin:auto;
+	width:1200px;
+}
+.clearfix{
+	clear:both;	
+}
+hr{
+	border:.5px solid#ebebeb
+}
+/*End Main Ruloz*/
+
+ /*start header */
+.header .slider{
+	height:400px;
+	background-image:url('lap1.jpg');
+	background-size:cover;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+.navbar {
+  min-height: 46px;
+  padding:0px 0px 0px 260px
+}
+
+.navbar li {
+  color: #BCBCBC;
+  padding: 15px 20px;
+  float: left;
+  font-family:serif;
+  font-weight:bold;
+  font-size:25px;
+  
+}
+
+.navbar  li  a {
+  color: #BCBCBC;
+  text-decoration: none
+}
+.navbar  li.active a,
+.navbar  li  a:hover{
+	color:#3eb3a5;
+	border:none;
+	border-bottom:5px solid #AFAFAF;
+	padding-bottom:7px;
+	
+}
+
+.navbar li img {
+	margin-top:-110px;
+	margin-bottom:-60px;
+	border-radius:100px
+}
+ /*End header*/
+ 
+ /*start lorem*/
+ .lorem .icon{
+	 overflow:hidden;
+	
+ }
+ .lorem .icon .left{
+	 float:left;
+	 width:20%;
+	 margin-top:70px;
+	border:7px solid #EBEBEB;
+	border-radius:70px;
+	height:105px;
+	width:103px;
+	text-align:center;
+	margin-left:123px;
+	font-family:serif;
+	margin-right:0px;
+ }
+ .lorem .icon .left p{
+	 color:#3eb3a5;
+	padding-top:5px;
+	font-size:30px;
+	font-weight:bold;
+	font-family:serif;
+ }
+ .lorem .icon .right{
+	 float:right;
+	 width:80%;
+	  margin-top:80px;
+
+ }
+ .lorem .icon .right p{
+	 padding-left:10px;
+	 font-size:15px;
+	 color:#d7d7d7;
+	 font-family:serif;
+	 
+ }
+ .lorem .icon .right p span{
+	 color:#3eb3a5;
+	 padding-left:3px;
+	 font-family:serif;
+	 font-weight:bold;
+ }
+ .lorem .icon .right p i {
+	border-left:1px solid #dddd;
+	border-right:1px solid #dddd;
+	padding-left:15px;
+	padding-right:20px;
+	font-size:17px;
+	
+ }
+ 
+ .lorem .dolor{
+	 overflow:hidden;
+	 margin-top:-60px;
+     font-family:serif;
+	 
+ }
+ .lorem .dolor .site{
+	 float:right;
+	 width:80%;
+	 font-family:serif;
+ }
+ .lorem .dolor .site h2{
+	 font-weight:bold;
+	 font-size:30px;
+	 padding-left:10px;
+	 margin-bottom:0px;
+	 font-family:serif;
+ }
+ .lorem .dolor .site p{
+	  padding-left:10px;
+	  line-height:1.3;
+	  color:#BEBEBE;
+	  font-weight:bold;
+	  margin-bottom:30px;
+	  font-family:serif;
+	  font-size:17px
+ }
+.site .img img{
+	 margin-left:0px;
+	 width:900px;
+	 height:600px;
+	 padding-left:10px;
+	 margin-bottom:25px;
+	 box-sizing:border-box;
+ }
+ .site .link{
+	 padding:10px;
+	 margin-bottom:20px;
+ }
+ .site .link span{
+	 color:black;
+	 font-weight:bold;
+	 font-size:20px;
+	 padding-right:10px;
+	 font-weight:bold;
+ }
+ .site .link a{
+	 color:#3eb3a5;
+	 text-decoration:none;
+ }
+ /*end lorem*/
+ 
+ /*start comment*/
+ .comment {
+	 overflow:hidden;
+	 margin-top:15px;
+	 margin-bottom:15px;
+ }
+ .comment  h2{
+	 float:left
+ }
+ .comment div {
+	 float:right;
+	 padding-top:10px;
+	 padding-bottom:10px;
+	 text-align:center;
+ }
+ .comment  button{
+	 background-color:#3eb3a5;
+	 color:#FFF;
+	 border-radius:10px;
+	 border:none;
+	 height:50px;
+	 width:170px;
+	 font-family:arial;
+	 word-spacing:4px
+ }
+ /*end comment*/
+ 
+ /*start post*/
+ .post{
+	 text-align:center;
+	 text-transform:capitalize:
+ }
+ .post h2{
+	 font-family:serif;
+	 font-weight:bold;
+	 margin-bottom:30px;
+	 margin-top:30px;
+ }
+ .post .form input{
+	 width:185px;
+	 height:45px;
+	 color:#888B8B;
+	 background-color:#EBEBEB;
+	 border:none;
+	 border-radius:5px;
+	 padding-left:10px;
+	 padding-top:px;
+	 font-family:arial;
+	 margin:8px;
+	 margin-bottom:20px;
+	font-family:arila;
+ }
+ .post .form label{
+	 color:#888B8B;
+	 font-family:arila;
+	 font-weight:bold;
+	 font-size:small;
+	 margin:10px;
+	 padding:15px;
+	
+ }
+ .post .form input[type='text']{
+	 margin-left:0px;
+ }
+  .post .form input[type='email']{
+	  margin-right:0px;
+  }
+
+ .post .form textarea{
+	 width:400px;
+	 margin-right:207px;
+	 height:200px;
+	 margin-bottom:15px;
+	 color:#888B8B;
+	 background-color:#EBEBEB;
+	 border:none;
+	 border-radius:5px;
+	 padding-left:10px;
+	 padding-top:20px;
+	 font-family:arial;
+ }
+ .post .form input[type='submit']{
+	 width:410px;
+	 color:#FFF;
+	 background-color:#3EB3A5;
+	 font-weight:bold;
+	 font-size:20px; 
+	 margin-right:35px;
+	 margin-bottom:40px;
+	 padding:5px
+ }
+ /*end post*/
+ 
+ /* start john*/
+ 
+
+ .john .photo  .icon{
+	 float:left;
+	 width:20%;
+	  border-radius:70px;
+	  background-color:#EBEBEB;
+	 border:7px solid #EBEBEB;
+	 height:105px;
+	 width:103px;
+	 margin-top:60px;
+	 margin-left:105px;
+	 
+ }
+ .john .photo .Doe{
+	 float:right;
+	 width:80%;
+ }
+ .john .photo .Doe h3{
+	 text-transform:capitalize;
+	 color:#3EB3A5;
+	 font-weight:bold;
+	 font-size:27px;
+	 font-family:serif;
+	 margin-top:100px;
+ }
+ .john .photo .Doe p{
+	 background-color:#EBEBEB;
+	 border-radius:5px;
+	 font-family:serif;
+	 color:#565656;
+	 width:600px;
+	 
+	 padding:15px;
+	 line-height:1.5;
+	 font-weight:bold;
+	 
+ }
+ .john .photo .Doe a{
+	 text-decoration:none;
+	 color:#3EB3A5;
+	 font-family:serif;
+	 padding-left:20px;
+	 font-weight:bold;
+ }
+    /*the same up*/
+	.john .photo1 .icon{
+	 float:left;
+	 width:20%;
+	  border-radius:70px;
+	  background-color:#EBEBEB;
+	 border:7px solid #EBEBEB;
+	 height:105px;
+	 width:103px;
+	 margin-top:60px;
+	 margin-left:105px;
+	 
+ }
+ .john .photo1 .Doe{
+	 float:right;
+	 width:80%;
+ }
+ .john .photo1 .Doe h3{
+	 text-transform:capitalize;
+	 color:#3EB3A5;
+	 font-weight:bold;
+	 font-size:27px;
+	 font-family:serif;
+	 margin-top:100px;
+	 font-weight:bold;
+ }
+ .john .photo1 .Doe p{
+	 background-color:#EBEBEB;
+	 border-radius:5px;
+	 font-family:serif;
+	 color:#565656;
+	 width:600px;
+	 
+	 padding:15px;
+	 line-height:1.5;
+	 font-weight:bold;
+	 
+ }
+ .john .photo1 .Doe a{
+	 text-decoration:none;
+	 color:#3EB3A5;
+	 font-family:serif;
+	 padding-left:20px;
+	 font-weight:bold;
+ }
+ 
+ .john button{
+	 color:#FFF;
+	 background-color:#3EB3A5;
+	 padding:15px;
+	 border:none;
+	 border-radius:5px;
+	 font-family:serif;
+	 font-size:20px;
+	 margin-top:40px;
+	 margin-bottom:20px;
+	 font-weight:bold;
+	 margin-left:500px;
+	 
+ }
+ /* end john*/
+ 
+ /*footer*/
+ .footer {
+	 text-align:center;
+	 color:#AFAFAF;
+	 font-family:serif;
+	 word-spacing:px;
+	 font-size:20px;
+	 margin:20px;
+ }
+ .footer span{
+	 color:#3EB3A5;
+	  font-weight:bold;
+ }
+ /*footer*/
+ 
